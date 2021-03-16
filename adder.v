@@ -1,11 +1,11 @@
-module (
-        input           wire           d,
-        input           wire            fg,
+module adder (
+        input           wire            a,
+        input           wire            b,
         output          reg             c
 
 )
+assign c = a & b;
 
-assign c = a |b;
 
 
 endmodule
